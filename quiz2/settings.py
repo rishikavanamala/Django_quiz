@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7(=_fv(an1_msrl#sve#^y9f16bly5!-16j-b9+u#+xo=v$+p@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-quiz-tawi.onrender.com']
 
 
 # Application definition
